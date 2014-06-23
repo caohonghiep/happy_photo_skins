@@ -1,0 +1,6 @@
+{
+    "index": "index.html",
+    "css": ["css/style.css"],
+    "js": ["js/jquery.com jquery-2.1.0.js", "js/script.js"],
+    "images": ["images/icons/up.png","images/icons/down.png"]
+}

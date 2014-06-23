@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Happy Wedding</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="./js/jquery.com jquery-2.1.0.js" ></script>
+        <script src="./js/script.js" ></script>
+    </head>
+    <body>
+        
+        <div class="wedding_name">
+            <h1>Trần Quang Cuộc & Cao Kim Hồng</h1>
+            <h6>Trăm Năm Hạnh Phúc</h6>
+        </div>
+        
+        <div class="background_container">
+            <img alt="" src="" style="display: none"/>
+        </div>
+        
+        <div class="loader_container">
+            <img src="images/icons/loader.gif" alt=""/>
+        </div>
+
+        <ul class="navigation footer" id="nav">
+            <li class="album current" style="height: 170px; display: list-item;">
+                <span id="toggle" class="link"><span class="arrow_up"></span></span>
+                <div class="wrapper thumbs_wrapper" style="overflow: hidden; display: block;">
+                    <div class="thumbs"> 
+                        
+                    </div>                    
+                    <button class="expand-button expand-prev">
+                        <div>&Precedes;</div> 
+                    </button>
+                    <button class="expand-button expand-next">
+                        <div>&Succeeds;</div> 
+                    </button>
+                </div>
+                
+                
+                
+            </li>
+        </ul>
+        <script>            
+            createView();
+        </script>
+    </body>
+</html>
