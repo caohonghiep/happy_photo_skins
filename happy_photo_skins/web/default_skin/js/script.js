@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var title = parent.imagesData.title || "Trần Quang Cuộc & Cao Kim Hồng";
-var congratulation = parent.imagesData.congratulation || "Trăm Năm Hạnh Phúc";
+var title = (parent!==null && parent.imagesData !== null) ? parent.imagesData.title : "Trần Quang Cuộc & Cao Kim Hồng";
+var congratulation = (parent!==null && parent.imagesData !== null) ? parent.imagesData.congratulation : "Trăm Năm Hạnh Phúc";
 var imagesJson = parent.imagesData.imagesList || [{
         "title": "",
         "description": "",
