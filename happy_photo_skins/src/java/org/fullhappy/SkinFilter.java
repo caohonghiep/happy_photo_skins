@@ -78,7 +78,7 @@ public class SkinFilter implements Filter {
             response1.setHeader("Access-Control-Allow-Origin", clientOrigin);
             //response1.setHeader("access-control-allow-credentials", "true");
             response1.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE");
-        }else{
+        }else if(!debug){
             ((HttpServletResponse)response).sendError(HttpServletResponse.SC_BAD_REQUEST, "");
         }
         Throwable problem = null;

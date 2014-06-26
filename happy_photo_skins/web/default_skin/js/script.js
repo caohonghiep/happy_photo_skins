@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var imagesJson = parent.imagesData || [{
+var title = parent.imagesData.title || "Trần Quang Cuộc & Cao Kim Hồng";
+var congratulation = parent.imagesData.congratulation || "Trăm Năm Hạnh Phúc";
+var imagesJson = parent.imagesData.imagesList || [{
         "title": "",
         "description": "",
         "imageThumbURL": "https://lh3.googleusercontent.com/-1e-ZjPpZL8Y/UyPm6aNm8iI/AAAAAAAADrg/B4pcypP16EU/s288/1.JPG",
@@ -83,6 +85,9 @@ $(document).ready(function() {
     var timeDeplay = 5000;
     var timeEffect = 2000;
     var slider;
+    
+    $('.wedding_name h1').html(title);
+    $('.wedding_name h6').html(congratulation);
     
     startSlider();
     
